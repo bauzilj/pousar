@@ -1,0 +1,105 @@
+:root {
+    --background-color: #8FBC8B;
+    --primary-color: #2887ff;
+    --primary-color-dark: #2476da;
+    --text-dark: #0a0a0a;
+    --text-light: #737373;
+    --extra-light: #f3f4f6;
+    --white: #ffffff;
+    --max-width: 1200px;
+    --border-color: #27c957;
+    --container-background: aliceblue;
+    --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+
+}
+
+
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #f2f2f2;
+    margin-top: 5%;
+
+}
+
+.left-container {
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: var(--box-shadow);
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.right-container {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: var(--box-shadow);
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.left-container img {
+    width: 600px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10%;
+}
+
+
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  font-size: 16px;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical ;
+}
+
+
+input[type=submit] {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+}
+
+
+input[type=submit]:hover {
+  background-color: var(--primary-color-dark);
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
