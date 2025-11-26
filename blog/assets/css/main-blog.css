@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --background-color: #8FBC8B;
+    --primary-color: #2887ff;
+    --primary-color-dark: #2476da;
+    --text-dark: #0a0a0a;
+    --text-light: #737373;
+    --extra-light: #f3f4f6;
+    --white: #ffffff;
+    --max-width: 1200px;
+    --border-color: #27c957;
+    --container-background: aliceblue;
+    --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    --text-shadow: 2px 2px black;
+    --text-color: rgb(234, 146, 14);
+
+}
+
+
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: var(--container-background);
+
+}
+
+.main-banner {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner {
+    background-image: url('../images/punta-cana.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center bottom;
+}
+
+#b-title {
+    text-align: center;
+    color: var(--text-color);
+    text-shadow: var(--text-shadow);
+    font-size: 40px;
+    text-transform: uppercase;
+
+
+}
+
+#first-p {
+    margin-top: 10%;
+    text-align: center;
+    color: var(--text-color);
+    text-shadow: var(--text-shadow);
+    line-height: 3;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+#sec-p {
+    text-align: center;
+    color: var(--text-color);
+    text-shadow: var(--text-shadow);
+    line-height: 3;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+.main-post img {
+    width: 600px;
+}
+
+.post-itens {
+    margin-top: 1%;
+    width: 600px;
+    align-content: center;
+    background-color: #fff;
+    padding: 8px;
+
+}
+
+.foto{
+    width: 5px;
+}
+
+
+.paraf {
+    text-align: center;
+    font-size: 18px;
+    color: var(--text-dark);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.paraf-itens{
+    font-size: 18px;
+    color: var(--text-dark);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.par {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.main-post {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 2rem;
+   
+}
+
+.p-div {
+    width: var(--max-width);
+}
