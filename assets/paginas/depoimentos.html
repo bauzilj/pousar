@@ -2,9 +2,10 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="stylesheet" href="assets/css/navbar.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="../css/depoimentos.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pousar | Agencia de Viagem</title>
@@ -29,14 +30,14 @@
         </ul>
         <ul>
             <li><a href="index.html" id="meu_logo">Pousar</a></li>
-            <li class="hideOnMobile"><a href="">Home</a></li>
+            <li class="hideOnMobile"><a href="../../index.html">Home</a></li>
             <li class="hideOnMobile"><a href="">Pacotes</a></li>
             <li class="hideOnMobile"><a href="">Nacionais</a></li>
             <li class="hideOnMobile"><a href="">Internacionais</a></li>
             <li class="hideOnMobile"><a href="">Contato</a></li>
-            <li class="hideOnMobile"><a href="assets/paginas/depoimentos.html">Depoimentos</a></li>
+            <li class="hideOnMobile"><a href="../paginas/depoimentos.html">Depoimentos</a></li>
             <li class="hideOnMobile"><a href="">Blog</a></li>
-            <li class="hideOnMobile"><a href="assets/paginas/sobre-nos.html">Sobre-nós</a></li>
+            <li class="hideOnMobile"><a href="../paginas/sobre-nos.html">Sobre-nós</a></li>
             <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
                         height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
                         <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
@@ -45,69 +46,76 @@
         </ul>
     </nav>
 
-    <div class="top-container">
-        <div class="top-container-title">
-            <h1>Pacotes de viagens</h1>
+    <h1>Depoimentos que nos inspiram</h1>
+    <div class="container-pai">
+        <div class="container">
+            <img src="../images/mariana-santos.jpg" alt="mariana-santos">
+            ⭐⭐⭐⭐⭐
+            <p class="frase">“A experiência foi incrível! A Agência Pousar cuidou de tudo com muito carinho.”</p>
+            <p>— Mariana Santos – Gramado/RS</p>
         </div>
-        <div class="top-container-item">
-            <div class="item">
-                <label for="origem">Origem</label>
-                <input type="text" id="origem" name="origem" placeholder="Insira uma cidade">
-            </div>
-            <div class="item">
-                <label for="destino">Destino</label>
-                <input type="text" id="destino" name="destino" placeholder="Insira uma cidade">
-            </div>
-        </div>
-        <div class="top-container-item">
-            <div class="item">
-                <label for="ida">Ida:</label>
-                <input type="date" id="ida" name="ida">
-            </div>
-            <div class="item">
-                <label for="volta">Volta:</label>
-                <input type="date" id="volta" name="volta">
-            </div>
-            <div class="item">
-                <button>Buscar</button>
-            </div>
-        </div>
-    </div>
 
+        <div class="container">
+            <img src="../images/joao-victor.jpg" alt="joao-victor">
+            ⭐⭐⭐⭐⭐
+            <p class="frase">“Atendimento rápido, transparente e muito acolhedor. Viajar ficou mais fácil!”</p>
+            <p>— João Victor – Rio de Janeiro/RJ</p>
+        </div>
 
-    <div class="banner-content">
-        <div class="banner-item">
-            <img src="assets/images/cancun.jpg" alt="Cancum">
-            <h3>Partiu Cancun! Seleção de voos a partir de R$ 491 ida e volta saindo de várias cidades</h3>
+        <div class="container">
+            <img src="../images/carolina-azevedo.jpg" alt="carolina-azevedo">
+            ⭐⭐⭐⭐⭐
+            <p class="frase">“Me ajudaram até nos imprevistos do voo. Nunca tive suporte tão bom!”</p>
+            <p>— Carolina Azevedo – Lisboa/PT</p>
         </div>
-        <div class="banner-item">
-            <img src="assets/images/londre.jpg" alt="Londre">
-            <h3>Esquenta Black Friday! Voos a partir de R$ 249 com Azul, Gol e Latam para 52 cidades – só neste fim de
-                semana</h3>
-        </div>
-    </div>
 
-    <div class="main-content">
-        <div class="main-items">
-            <img src="assets/images/bahia.jpg" alt="Bahia">
-            <p>Curta a Bahia no precinho! Pacotes para Itacaré com até 30% OFF e voo + hospedagem a partir de R$ 1.507
-                por pessoa</p>
+        <div class="container">
+            <img src="../images/rafael-almeida.jpg" alt="rafael-almeida">
+            ⭐⭐⭐⭐⭐
+            <p class="frase">“Encontrei um preço melhor que nas plataformas famosas. Atendimento nota 10.”</p>
+            <p>— Rafael Almeida – Maceió/AL</p>
         </div>
-        <div class="main-items">
-            <img src="assets/images/rio.jpg" alt="rio">
-            <p>Esquenta Black Friday da Decolar tem cupons exclusivos para hotéis no Rio de Janeiro, Ubatuba e na rede
-                Wish</p>
+
+        <div class="container">
+            <img src="../images/larissa-moura.jpg" alt="larissa-moura">
+            ⭐⭐⭐⭐⭐
+            <p class="frase">“Primeira vez viajando sozinha e me senti segura do início ao fim.”</p>
+            <p>— Larissa Moura – Curitiba/PR</p>
         </div>
-        <div class="main-items">
-            <img src="assets/images/argentina.jpg" alt="Argentina">
-            <p>C
-                Argentina bom demais! Voos mais estadia nos hotéis Rochester a partir de R$ 2.157 por pessoa – ou
-                diárias com café desde R$ 391</p>
+
+        <div class="container">
+            <img src="../images/bruno-teixeira.jpg" alt="bruno-teixeira">
+            ⭐⭐⭐⭐⭐
+            <p class="frase">“Organização impecável. Recebi tudo pelo WhatsApp em minutos!”</p>
+            <p>— Bruno Teixeira – São Paulo/SP</p>
         </div>
-        <div class="main-items">
-            <img src="assets/images/palladium.webp" alt="Bahia">
-            <p>Grand Palladium no Caribe: voos + all inclusive a partir de R$ 5.636 por pessoa com o cupom exclusivo!
-                com até 30% OFF </p>
+
+        <div class="container">
+            <img src="../images/evelyn-lucas.jpg" alt="evelyn-lucas">
+            ⭐⭐⭐⭐⭐
+            <p class="frase">“Eles montaram minha viagem de lua de mel com muito cuidado. Foi perfeito.”</p>
+            <p>— Evelyn & Lucas – Cancún/MX</p>
+        </div>
+
+        <div class="container">
+            <img src="../images/fernanda-ribeiro.jpg" alt="fernanda-ribeiro">
+            ⭐⭐⭐⭐⭐
+            <p class="frase">“A Pousar realmente entende o que o cliente precisa. Recomendo demais!”</p>
+            <p>— Fernanda Ribeiro – Fortaleza/CE</p>
+        </div>
+
+        <div class="container">
+            <img src="../images/andre-moreira.jpg" alt="andre-moreira">
+            ⭐⭐⭐⭐⭐
+            <p class="frase">“Além de conseguir um preço ótimo, o suporte durante a viagem foi excelente.”</p>
+            <p>— André Moreira – Buenos Aires/AR</p>
+        </div>
+
+        <div class="container">
+            <img src="../images/patricia-oliveira.jpg" alt="patricia-oliveira">
+            ⭐⭐⭐⭐⭐
+            <p class="frase">“Equipe simpática, rápida e super confiável. Viajo com eles sempre.”</p>
+            <p>— Patrícia Oliveira – Porto Seguro/BA</p>
         </div>
     </div>
 
@@ -169,10 +177,6 @@
         </div>
 
     </footer>
-
-    <script src="assets/js/script.js"></script>
-
 </body>
-
 
 </html>
