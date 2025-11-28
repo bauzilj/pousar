@@ -12,6 +12,7 @@
   --border-color: #27c957;
   --container-background: aliceblue;
   --box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+  --footericon-bg: #ecede0;
 }
 
 
@@ -167,7 +168,7 @@
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #33383b;
+  background-color: #dd440c;
   border-radius: 2px;
   font-size: 20px;
   color: var(--white);
@@ -255,7 +256,7 @@
 }
 
 .footer-distributed .footer-center i {
-  background-color: #33383b;
+  background-color: var(--footericon-bg);
   color: var(--text-dark);
   font-size: 25px;
   width: 38px;
@@ -338,7 +339,7 @@
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #33383b;
+  background-color: var(--footericon-bg);
   border-radius: 2px;
   font-size: 20px;
   color: var(--text-dark);
