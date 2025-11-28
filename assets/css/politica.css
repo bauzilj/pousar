@@ -1,0 +1,131 @@
+:root {
+    --section-background: linear-gradient (to bottom, #ff0000, #00ff00, #0000ff);
+    /**/
+    --section-border-color: #ddd;
+    /**/
+    --item-background-color: #8b45e0;
+    /**/
+    --body-background-color: #f5f5f5;
+    /**/
+    --item-color: #fff;
+    /**/
+    --flex-container-border-color: #999;
+    /**/
+    --container-background: aliceblue;
+    /**/
+    --descricao-color: #555;
+}
+
+
+img {
+    background: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.container-pai-logo {
+    background-color: var(--container-background);
+    display: flex;
+}
+
+.container-filho-logo {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.container-filho-corpo {
+    background-color: var(--container-background);
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding-right: 20px;
+    width: 300px;
+    
+
+    
+
+}
+
+.corpo-1 {
+    background-color: #5dd0ec85;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    width: 300px;
+}
+
+.corpo-2 {
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    
+}
+
+.texto{
+    font-size: 13px;
+
+}
+
+.container-filho-corpo-2{
+    background-color: var(--container-background);
+    border-radius: 5px;
+    margin-left: 0px;
+
+}
+.item {
+    
+  width: 800px;
+  border: 1px solid aliceblue;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.topo {
+    background-color: var(--container-background);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.conteudo {
+    background-color: var(--container-background);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 10px;
+}
+
+.item.ativo .conteudo {
+  max-height: 1000px;
+  padding: 10px;
+}
+
+.item.ativo .seta {
+  transform: rotate(180deg);
+  transition: 0.3s;
+}
+
+.seta {
+  transition: 0.3s;
+}
+
+.container-filho-3{
+    flex-direction: column;
+}
+
+.p-baixo{
+    padding-top: 20px;
+}
+
+.container-pai-3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
